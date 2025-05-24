@@ -1,0 +1,4 @@
+#Wed May 21 05:27:19 IST 2025
+base.0=/Users/nadillokuhetty/Downloads/mental_health_app 2/mental_health_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
