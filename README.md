@@ -26,11 +26,14 @@ flutter pub get
 	•	In lib/chat_screen.dart, replace static const _apiKey = 'YOUR_API_KEY_HERE'; with your real Gemini API key.
 	5.	Run the App
 
+
 flutter run
 
 	•	On an Android emulator, iOS Simulator, or a connected device.
 
+
 Reviewer Notes
+
 	•	Core Functionality lives in the lib/ directory—focus review here.
 	•	Doctor Login triggers on exactly doctor@gmail.com; all other emails go to user flow.
 	•	Screening Logic: PHQ-9 and GAD-7 questions compute _depressionScore and _anxietyScore variables.
@@ -39,4 +42,3 @@ Reviewer Notes
 	•	Theme Toggle in Settings updates the app’s themeMode via a callback in main.dart.
 	•	Doctor Dashboard uses sample data; extend with real database connectivity in future iterations.
 	•	File Picker integration is pending—currently the “My Collection” UI is scaffolded for future implementation.
-
