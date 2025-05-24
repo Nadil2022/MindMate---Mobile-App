@@ -11,7 +11,7 @@ class ChatScreen extends StatefulWidget {
 }
 
 class _ChatScreenState extends State<ChatScreen> {
-  static const _apiKey = 'AIzaSyDDoWRtGFr8RV_ypgLuzc50FvxUJN-o5Dk';
+  static const _apiKey = 'api_key';
   late final GenerativeModel _model;
 
   final _controller = TextEditingController();
